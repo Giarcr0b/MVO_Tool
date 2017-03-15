@@ -63,6 +63,7 @@
                 margin-bottom: 30px;
             }
         </style>
+     <!--   <script type="text/javascript" src="/result.js"></script> -->
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -78,12 +79,25 @@
                     MVO Tool Application
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="content">
+                    <form action="resultTest.php">
+                        <button type="submit" value="Open Script">
+                        Run Script
+                        </button>
+                    </form>
+                    <form action="clearTest.php">
+                        <button type="submit" value="Open Script">
+                            Clear Text
+                        </button>
+                    </form>
+                    <p>
+                        <?php
+                        $myfilename = "output.txt";
+                        if(file_exists($myfilename)){
+                            echo file_get_contents($myfilename);
+                        }
+                        ?>
+                    </p>
                 </div>
             </div>
         </div>

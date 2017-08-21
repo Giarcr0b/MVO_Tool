@@ -1,0 +1,11 @@
+language: julia
+julia:
+  - 0.4
+  - 0.5
+  - nightly
+os:
+  - linux
+notifications:
+  email: false
+after_success:
+  - julia -e 'cd(Pkg.dir("DataArrays")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'

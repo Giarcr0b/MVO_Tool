@@ -1,0 +1,6 @@
+language: generic
+sudo: false # use a docker worker for hopefully faster queue times
+notifications:
+    email: false
+script:
+    - sh .test/travis.sh

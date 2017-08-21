@@ -1,0 +1,51 @@
+81aae73f2c38d47e65f08d43930ce95556b5d465	not-for-merge	branch 'cjh/bufread' of https://github.com/JuliaIO/GZip.jl.git
+e3ca5ff5ade4707728cfad0af1e0152d34020187	not-for-merge	branch 'kms/fix_appveyor' of https://github.com/JuliaIO/GZip.jl.git
+d42aca39d59dcdb8e238841a2f2660a34ebc2c8f	not-for-merge	branch 'master' of https://github.com/JuliaIO/GZip.jl.git
+3e8dbb64db8c4755ca3f25c5e702af5919237991	not-for-merge	branch 'update_tests' of https://github.com/JuliaIO/GZip.jl.git
+aefde918b358be82e78588a6ea35842ff7360d80	not-for-merge	'refs/pull/12/head' of https://github.com/JuliaIO/GZip.jl.git
+5d1b89811593c49c7b375827c74a1c8262f4271b	not-for-merge	'refs/pull/17/head' of https://github.com/JuliaIO/GZip.jl.git
+3e8dbb64db8c4755ca3f25c5e702af5919237991	not-for-merge	'refs/pull/20/head' of https://github.com/JuliaIO/GZip.jl.git
+471bfc5579169e8c7baaee9ee86b111b19f9b9b4	not-for-merge	'refs/pull/20/merge' of https://github.com/JuliaIO/GZip.jl.git
+174ce2e63cd38e8dd86bfdd74b229d99971b620a	not-for-merge	'refs/pull/21/head' of https://github.com/JuliaIO/GZip.jl.git
+c1f70c7e7592439e0ae4b27c917913b6edf3f948	not-for-merge	'refs/pull/22/head' of https://github.com/JuliaIO/GZip.jl.git
+f99b0ed5906343853be8e0e590b0c4e63b29a69f	not-for-merge	'refs/pull/25/head' of https://github.com/JuliaIO/GZip.jl.git
+36a7819394a2b1610f808ea5262770804ee683dc	not-for-merge	'refs/pull/27/head' of https://github.com/JuliaIO/GZip.jl.git
+2eb25cda15c0ac1ce16950f4b51a6412aca70a1b	not-for-merge	'refs/pull/29/head' of https://github.com/JuliaIO/GZip.jl.git
+ba33b9638d7e4db2c6372d52d58ef266654d265c	not-for-merge	'refs/pull/29/merge' of https://github.com/JuliaIO/GZip.jl.git
+d2368d6e2295d73ed02d928ce6a2eb4ce6db8756	not-for-merge	'refs/pull/31/head' of https://github.com/JuliaIO/GZip.jl.git
+81aae73f2c38d47e65f08d43930ce95556b5d465	not-for-merge	'refs/pull/32/head' of https://github.com/JuliaIO/GZip.jl.git
+16d5224562b46e9c497016ae080f8636a4bb0a3b	not-for-merge	'refs/pull/32/merge' of https://github.com/JuliaIO/GZip.jl.git
+dd3acb8973dd2bfe7e80f19591a2cdee6d0184c0	not-for-merge	'refs/pull/35/head' of https://github.com/JuliaIO/GZip.jl.git
+4993f720b0af1b50fc7b8459a8a4f8eef639bd16	not-for-merge	'refs/pull/36/head' of https://github.com/JuliaIO/GZip.jl.git
+32aede7d580a63b57f5b34e93dd2b3712ae8a436	not-for-merge	'refs/pull/37/head' of https://github.com/JuliaIO/GZip.jl.git
+90362583fb1d466568b209de0939862535b0080e	not-for-merge	'refs/pull/38/head' of https://github.com/JuliaIO/GZip.jl.git
+c07c6b8f77ee959968e45283e2c8c1a166c6b977	not-for-merge	'refs/pull/39/head' of https://github.com/JuliaIO/GZip.jl.git
+576df6e9e126f2906d2cdd5616a44fd3d62ee93f	not-for-merge	'refs/pull/4/head' of https://github.com/JuliaIO/GZip.jl.git
+8e04eb27bdbdf177c1dd4a3626b2daa39ef60ae2	not-for-merge	'refs/pull/4/merge' of https://github.com/JuliaIO/GZip.jl.git
+03ea8ad49fe0fdfaf7e7c2ff213fc7ace9846cec	not-for-merge	'refs/pull/41/head' of https://github.com/JuliaIO/GZip.jl.git
+3d26321dc5f5cbac81ccbe70a4289cab6e36eeb1	not-for-merge	'refs/pull/41/merge' of https://github.com/JuliaIO/GZip.jl.git
+12cc548b1220831369101e0dbdfed91ce94d2175	not-for-merge	'refs/pull/42/head' of https://github.com/JuliaIO/GZip.jl.git
+4c11631b0ce803ce103e8cc44260bfff29fb635e	not-for-merge	'refs/pull/43/head' of https://github.com/JuliaIO/GZip.jl.git
+bc5e0630e9aa44a8fe9007c9c9528fa0593a940c	not-for-merge	'refs/pull/44/head' of https://github.com/JuliaIO/GZip.jl.git
+b83a669b06d2caf2d00bcc46180b0319d798f094	not-for-merge	'refs/pull/45/head' of https://github.com/JuliaIO/GZip.jl.git
+c9ab646c7860b9ec3cfa83ab47eba0f31c620a01	not-for-merge	'refs/pull/45/merge' of https://github.com/JuliaIO/GZip.jl.git
+fa91e4179d8f6eec3719b330b41cb4a5ca9ec46f	not-for-merge	'refs/pull/46/head' of https://github.com/JuliaIO/GZip.jl.git
+7415d25b5a28ac43c329eb8a1db3de8848d88d01	not-for-merge	'refs/pull/50/head' of https://github.com/JuliaIO/GZip.jl.git
+c1e18f53fcdfcc6eb1f4f7486a0ef96f9e54d9fa	not-for-merge	'refs/pull/51/head' of https://github.com/JuliaIO/GZip.jl.git
+136c0cd11e025423c7ab9d896fdebff3e41ceb7a	not-for-merge	'refs/pull/52/head' of https://github.com/JuliaIO/GZip.jl.git
+70f577d18f2fe2e4ce92538113ee5cca6b14811a	not-for-merge	'refs/pull/55/head' of https://github.com/JuliaIO/GZip.jl.git
+24b1af58bc99bb989efd9db83831d042e7f09ef8	not-for-merge	'refs/pull/56/head' of https://github.com/JuliaIO/GZip.jl.git
+9e7354ef94cd21130648349efa78c502ddc67eeb	not-for-merge	'refs/pull/56/merge' of https://github.com/JuliaIO/GZip.jl.git
+b88ad69be646ed0a1cc88119bfad9947c81abad9	not-for-merge	'refs/pull/58/head' of https://github.com/JuliaIO/GZip.jl.git
+375a4eddb5b5df2e0dca295f1c17f203b268673b	not-for-merge	'refs/pull/59/head' of https://github.com/JuliaIO/GZip.jl.git
+2ce0fd39067d171b68d3897408f005ea96e4c494	not-for-merge	'refs/pull/6/head' of https://github.com/JuliaIO/GZip.jl.git
+180ed24e658d7fe1f2ff1a5a5f7e14abfd41e458	not-for-merge	'refs/pull/6/merge' of https://github.com/JuliaIO/GZip.jl.git
+2fbab5e82787bf08dca0e593d81937896442d5e4	not-for-merge	'refs/pull/60/head' of https://github.com/JuliaIO/GZip.jl.git
+d6256f8af3ab924aa003074b8e0e206e28a98aaa	not-for-merge	'refs/pull/60/merge' of https://github.com/JuliaIO/GZip.jl.git
+98cbfe7cb5af209ca6fe13624412c3ca12d5f690	not-for-merge	'refs/pull/61/head' of https://github.com/JuliaIO/GZip.jl.git
+9b80493468749149d32240ceea35629f85e2653a	not-for-merge	'refs/pull/62/head' of https://github.com/JuliaIO/GZip.jl.git
+37d1bc85c8861daf7d5b0be439645c271f9af955	not-for-merge	'refs/pull/62/merge' of https://github.com/JuliaIO/GZip.jl.git
+e44ba5f18a3cf57a9d8288f097cc264a0c035f11	not-for-merge	'refs/pull/63/head' of https://github.com/JuliaIO/GZip.jl.git
+64fd87082e6e375778f82ad3311c9e41911acef9	not-for-merge	'refs/pull/9/head' of https://github.com/JuliaIO/GZip.jl.git
+00e7439e2dbda3fb92f9070dde2252e369089243	not-for-merge	'refs/pull/9/merge' of https://github.com/JuliaIO/GZip.jl.git
+d42aca39d59dcdb8e238841a2f2660a34ebc2c8f	not-for-merge	tag 'v0.3.0' of https://github.com/JuliaIO/GZip.jl.git

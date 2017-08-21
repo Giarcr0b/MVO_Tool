@@ -1,0 +1,11 @@
+language: julia
+os:
+  - linux
+  - osx
+julia:
+  - 0.5
+  - nightly
+notifications:
+  email: false
+after_success:
+-  julia -e 'if VERSION >= v"0.6.0-dev.565" cd(Pkg.dir("ColorTypes")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder()); end'

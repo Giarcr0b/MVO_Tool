@@ -1,0 +1,128 @@
+d8aae5d698df5975322554e94a8356efefdffe28	not-for-merge	branch 'fix146' of https://github.com/JuliaOpt/MathProgBase.jl.git
+b0acd61bf2b50591ab5f406d457cbaa78c31f8fd	not-for-merge	branch 'info-callback' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5f5e035a6e1ef45f5f041f8d43b39dbc9869c8fe	not-for-merge	branch 'master' of https://github.com/JuliaOpt/MathProgBase.jl.git
+bd9da002c9c1ed9f5294488db98f0351643a12ac	not-for-merge	branch 'ml/newdefaults' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f2680a155cbcab2207f21ead9b700cd340f466dd	not-for-merge	branch 'new-fallbacks' of https://github.com/JuliaOpt/MathProgBase.jl.git
+4cee54e3a3fc092d0dee8b081c1158987a812c0c	not-for-merge	branch 'powercone' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2bed990f807304fa269a3b5b63545f3ba659d228	not-for-merge	branch 'precompile' of https://github.com/JuliaOpt/MathProgBase.jl.git
+8590393c650ba59640606b6864da4e4f0adfb38e	not-for-merge	branch 'quad-to-soc' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0ae3dc86f8d2f9e9f8abff5643ff00da3fa0a634	not-for-merge	branch 'release-0.5' of https://github.com/JuliaOpt/MathProgBase.jl.git
+15b87e56907cd77ff7803d6522b3de718bed5db3	not-for-merge	branch 'sdp' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d9b25e2bdc03a664a0249ec1ba71ff744e312af6	not-for-merge	branch 'semicont' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5945bc5a80614982e2ad1705ff959d25f9b9341a	not-for-merge	branch 'solver-stats' of https://github.com/JuliaOpt/MathProgBase.jl.git
+fc4dc30fdf2faa7a35aa34fefd7358ee196f6c27	not-for-merge	branch 'sos' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e1eee70d94f49367e6869b502f8dcd3dd9155cc8	not-for-merge	branch 'updatemodel' of https://github.com/JuliaOpt/MathProgBase.jl.git
+62d94d3acf8557b3d3a27af9a28c6428c3d4c78b	not-for-merge	'refs/pull/1/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+daa7ccddf9aac5b5d20269767a364f64e20138c3	not-for-merge	'refs/pull/1/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+9d242b61883c575603471751b85aacbba952a427	not-for-merge	'refs/pull/100/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+25e7a85c6bb8ed05a78e559af0be70718f15e08d	not-for-merge	'refs/pull/102/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+7660bca57b37446d147c6d48097dbb7bf2a67875	not-for-merge	'refs/pull/104/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+6d9fb90ee7e607d77701f5cbe72b7c1ba2e6a5a3	not-for-merge	'refs/pull/104/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e796783a9f36fd3e3548c29efcb77ab10fb41bab	not-for-merge	'refs/pull/105/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+45d61895ee0e9372a4c6304541b13b4d9230b7d7	not-for-merge	'refs/pull/105/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+c45c4aee3c648e51fa9a2b0fbfac6b984e76e3df	not-for-merge	'refs/pull/106/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+b50bd50855e32fc5f4f1b73502877e25b1200fc2	not-for-merge	'refs/pull/106/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e75cdf00878d61eccfa8144dfbc8d3903db6c49c	not-for-merge	'refs/pull/107/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2a0292e6d3e16501fabe9c715983c5d6aa0a4ed2	not-for-merge	'refs/pull/107/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+df28aec2f1c737416e539588946b439f469afaf1	not-for-merge	'refs/pull/108/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+abed261c6ba9a217a6f293c8b686a6f868020383	not-for-merge	'refs/pull/109/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+34359e006df0835fdbd3161624b64eabdb0485c5	not-for-merge	'refs/pull/110/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d5fec24fc0238f7d1d26d3ce72e9c6f4cf4e0ad8	not-for-merge	'refs/pull/111/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+bc177eca3261b2b53c8412376b948504403c775b	not-for-merge	'refs/pull/113/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+af8bb76ae988ee6ffb0d52a077617eb3148ff9c8	not-for-merge	'refs/pull/114/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+74ad520f2468af886986883ee38d15151acaf711	not-for-merge	'refs/pull/115/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+239947a94f9821ec23c63d827180506360ddcbc4	not-for-merge	'refs/pull/116/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+a822aab45ae23f141e73a34d2c930e36c906886f	not-for-merge	'refs/pull/116/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+1d2979a49e2afda9ea46f7745a4de22b93f57d5f	not-for-merge	'refs/pull/117/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+b1468c7fa01b1d52413ad665684299084ae76e5f	not-for-merge	'refs/pull/118/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e86e294b51baf039c14e681726e2e25a72f46f6f	not-for-merge	'refs/pull/119/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f6108db08bba667337165edb84c2cd83edfe1de2	not-for-merge	'refs/pull/123/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0c352cb4ce023e17728e7926ae7cd8f7d10da8b1	not-for-merge	'refs/pull/124/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+397020a86332305ff9915bc4eb37063297a3ab45	not-for-merge	'refs/pull/126/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e725b91912e6003d344e0b3bdf2d33876beb6ec9	not-for-merge	'refs/pull/127/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2e3642ee961e6523209e3162bfb2b646b4104d03	not-for-merge	'refs/pull/127/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5bfe35c32bf2b8459f8c117ceef75f533f1b4053	not-for-merge	'refs/pull/129/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+38a5967c64688ea745221e7655ea9a56c2f6ad4b	not-for-merge	'refs/pull/13/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d123bd2ae1ae4e140dc491cc9118a41dc60d8572	not-for-merge	'refs/pull/130/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+48d87e514f95fd301ca1b4d6994b27f0caa34737	not-for-merge	'refs/pull/131/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e4b0f806242dc0add2906b7cc22a6009b26a34b5	not-for-merge	'refs/pull/132/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5d2e59e7229f30e37ecadad1ef3bf028d83742db	not-for-merge	'refs/pull/133/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+14dfc8508388ff0067e5c285419705d651096c97	not-for-merge	'refs/pull/134/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+aa9a3c749c6f3065d084b0bd7f922d8e79c0ef0d	not-for-merge	'refs/pull/135/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+b88d921d384a3f4552ab0d007703b3d4f107e1c5	not-for-merge	'refs/pull/136/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2359d3c2c109f230ca8f44834a2248a0aa376775	not-for-merge	'refs/pull/137/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+be77c3083679f0a693d4715dffd3efcd562243a4	not-for-merge	'refs/pull/138/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5ee0cb10f7ed8cd46f2b1b1a2680dadde54a159b	not-for-merge	'refs/pull/141/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+503d1f440fd48e2dcc79906d612dbe1d0f6bd784	not-for-merge	'refs/pull/144/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+41d9cac52fbafbed7678b8e3fa0e9c68e21507ae	not-for-merge	'refs/pull/144/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+3ca7893598362c28fcb7d35fca280a87000144df	not-for-merge	'refs/pull/145/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d8aae5d698df5975322554e94a8356efefdffe28	not-for-merge	'refs/pull/147/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2308c96cb62bcaa9fd5c9b73cd58233ce9a642bf	not-for-merge	'refs/pull/149/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+bd9da002c9c1ed9f5294488db98f0351643a12ac	not-for-merge	'refs/pull/150/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+6964aa47d1e3102aa808d8a9dcfc97eb03bbe855	not-for-merge	'refs/pull/150/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+c691ed772edb05f50756b3dd57f43728b4ba0b4d	not-for-merge	'refs/pull/151/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+61254194eb4ba45b348cba0b562ff8fe67e85ac4	not-for-merge	'refs/pull/152/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+18cc4eabd4e907e72752937a77b6ccbd197a3db2	not-for-merge	'refs/pull/153/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+ad10e5ceeee38e32f82ac59581b2634d1af8cb32	not-for-merge	'refs/pull/155/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+8ab4f3b46e56b3f4103fbb588161becda206959b	not-for-merge	'refs/pull/155/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+228c3d5c6cb7f19267140f2bff09ba2079ae41b9	not-for-merge	'refs/pull/157/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0a7dd53305b3cfd729dfe9990c11692c3f389126	not-for-merge	'refs/pull/158/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+3f7b955979d1dfcc5743f5b35575a60f4aa6570c	not-for-merge	'refs/pull/159/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0f4a0dacb5efacb98fc42fed759651d5d44a10b7	not-for-merge	'refs/pull/160/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+e87b4558d34988a5e664dfd67b6e39d0399d08a6	not-for-merge	'refs/pull/17/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5bdb7d2cb7d64bd5bbb1f01bae093aa904434075	not-for-merge	'refs/pull/2/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2b4e2f33497478171cbce88f0aa87869655a6861	not-for-merge	'refs/pull/2/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+4c4f783f3621fb656c3598a5f68bf55ff6e43cab	not-for-merge	'refs/pull/20/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+fc4dc30fdf2faa7a35aa34fefd7358ee196f6c27	not-for-merge	'refs/pull/21/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+eafdb9e2a28aea3ac925303368dca974e21ade3b	not-for-merge	'refs/pull/22/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+15b87e56907cd77ff7803d6522b3de718bed5db3	not-for-merge	'refs/pull/26/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+1b5b7382d872d6906a261220df5eb678a1d9490a	not-for-merge	'refs/pull/31/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f365e7fdaf14d5e6f69333b94518284678319412	not-for-merge	'refs/pull/32/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f2680a155cbcab2207f21ead9b700cd340f466dd	not-for-merge	'refs/pull/33/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+4391160588b3a2dca7c75060bb9f0c87c136d6ae	not-for-merge	'refs/pull/35/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+93baa73680d4e83a6cc6d086dcb0f50de9d6fbf5	not-for-merge	'refs/pull/36/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d2562fdb53dd6bb673eb059c3d5b0dac57425c05	not-for-merge	'refs/pull/36/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+520f9c927829294804a6f4468a42a9a0cb93d6f8	not-for-merge	'refs/pull/37/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+972f039a2c716c23af6888f2885612914dd07d88	not-for-merge	'refs/pull/38/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5945bc5a80614982e2ad1705ff959d25f9b9341a	not-for-merge	'refs/pull/39/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d9b25e2bdc03a664a0249ec1ba71ff744e312af6	not-for-merge	'refs/pull/41/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+d2090e8a5854546fcad844cce12df5ea06df5887	not-for-merge	'refs/pull/42/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2b41856a2ae25ad63bc6ee6abb55f6d5e3ad8719	not-for-merge	'refs/pull/46/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+1faeae8bb6bd6e434f762f28a4cc5098eec53f5b	not-for-merge	'refs/pull/47/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+710ffa9c2b0eb17c16830a60b0fa55dcb8c96564	not-for-merge	'refs/pull/48/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+030061801267e428142d4ec68d8840a0a7acc867	not-for-merge	'refs/pull/49/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+844535e646812caa5f7bfc922123f62787f6d195	not-for-merge	'refs/pull/53/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+68e77845aa12308ee782f03ee7e3462d96a26b7f	not-for-merge	'refs/pull/55/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+7f8866b2209e7d4c6bd9296bd8c78af20598f2db	not-for-merge	'refs/pull/56/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0cd14b844936e453f221a730e5465092fbfb17b8	not-for-merge	'refs/pull/56/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+edd04a4e0f7bdf8f672508589d649c2559613bd9	not-for-merge	'refs/pull/57/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+b0acd61bf2b50591ab5f406d457cbaa78c31f8fd	not-for-merge	'refs/pull/58/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+72de0082dab814252af1690ef1c1f67cb25c1d44	not-for-merge	'refs/pull/60/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+8590393c650ba59640606b6864da4e4f0adfb38e	not-for-merge	'refs/pull/62/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+caf0c5e4ceab4f81061e8d53e2e120af451e3d8c	not-for-merge	'refs/pull/63/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+722d50fa1ed6ad104062b659bc46b8937f838329	not-for-merge	'refs/pull/65/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+8a49dfd277a6236e4a2f70687967c2cb3ffb43e4	not-for-merge	'refs/pull/67/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+9140fff588481d7534c1d1377a8819e0d831b8fe	not-for-merge	'refs/pull/68/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+fb316914fd862b51b87644295329486cf65872fe	not-for-merge	'refs/pull/69/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+4cee54e3a3fc092d0dee8b081c1158987a812c0c	not-for-merge	'refs/pull/71/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+bd3ec1d1b0af4a7b46106d0845fefb369137ec55	not-for-merge	'refs/pull/71/merge' of https://github.com/JuliaOpt/MathProgBase.jl.git
+c6b2d596b54ea4c3e89dbb0ed3895a1ae8581589	not-for-merge	'refs/pull/72/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+3f0f472649d9dd7937a64ba1b84b49ee1c882950	not-for-merge	'refs/pull/74/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+410336a3c78991a4c0697f81cd9bf88e939cd2a0	not-for-merge	'refs/pull/75/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+64e2e687f32461120ca8e3abad7bdb6cf3f497a0	not-for-merge	'refs/pull/76/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f9810859138cb7e2723a92fe07221041929815ec	not-for-merge	'refs/pull/77/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+2bed990f807304fa269a3b5b63545f3ba659d228	not-for-merge	'refs/pull/80/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+92e5637953f19f7a12d06eb39d0d25c099d9baba	not-for-merge	'refs/pull/82/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+42749b3d17d183a91dac31268746f9039e92bae0	not-for-merge	'refs/pull/83/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+3f9e2ce0999c70f4b5cff45b85c2ddc683934c9c	not-for-merge	'refs/pull/85/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+29d27ecc6d86a02968478c97c70d328bab86b834	not-for-merge	'refs/pull/86/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+49e0a4cbf9626a0de3da162c53f578a2d60cc1ca	not-for-merge	'refs/pull/88/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+f5e2bd6deb0f6bf316753185cf0044a697d5c191	not-for-merge	'refs/pull/89/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+ca083cf07889402fdf7e999b60612fce3028ab39	not-for-merge	'refs/pull/90/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+0c4701dca2667db4b0fe50f07259cd42178f61b2	not-for-merge	'refs/pull/91/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+4d6c2d5f8969192161bbfcfdb9a433e45c754ba9	not-for-merge	'refs/pull/95/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+6c112f777e1ca233739994027dcf91f46ffb99a6	not-for-merge	'refs/pull/97/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+30df4b1c88ea695ec7d6ab7a0490f82ca715591e	not-for-merge	'refs/pull/99/head' of https://github.com/JuliaOpt/MathProgBase.jl.git
+fba7cac1d932a5801d8bda227e59fed49eb7062f	not-for-merge	tag 'v0.6.2' of https://github.com/JuliaOpt/MathProgBase.jl.git
+7529596b0596027df1d262e33567673c33893138	not-for-merge	tag 'v0.6.3' of https://github.com/JuliaOpt/MathProgBase.jl.git
+5f5e035a6e1ef45f5f041f8d43b39dbc9869c8fe	not-for-merge	tag 'v0.6.4' of https://github.com/JuliaOpt/MathProgBase.jl.git

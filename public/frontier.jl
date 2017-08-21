@@ -2,9 +2,15 @@ using JuPOT
 
 
              m = 6 # No. of days data
-             returns = ARGS[1]
+             data = ARGS[1]
+             returns = split(data, ",")
+
              meanReturns =  ARGS[2] # Returns a matrix of size(n) with entries between 0-1s
-             tickers = ARGS[3]
+             d = split(meanReturns, ",")
+
+             stocks = ARGS[3]
+             tickers = split(stocks, ",")
+
              n = length(tickers)
 
              matrix = reshape(d,m,n)

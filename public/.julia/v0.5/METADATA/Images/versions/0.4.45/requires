@@ -1,0 +1,10 @@
+julia 0.3 0.5
+Compat 0.4
+Colors
+ColorVectorSpace
+BinDeps
+@osx Homebrew
+SIUnits
+Zlib
+Graphics 0.1
+FixedPointNumbers 0.0- 0.3

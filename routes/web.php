@@ -30,11 +30,15 @@ Route::resource('portfolios', 'PortfolioController');
 /**
  * Resourceful route for Stocks
  */
-Route::resource('stocks', 'StockController');
 
 Route::post('findstocks/{id}', ['uses' => 'StockController@find']);
+Route::get('buildfrontier/{id}/{markets}', ['uses' => 'StockController@build']);
+Route::resource('stocks', 'StockController');
+
+
 
 /**
  * Resourceful route for OPtimisations
  */
+Route::post('make', ['uses' => 'OptimisationController@make']);
 Route::resource('optimisations', 'OptimisationController');

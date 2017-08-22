@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <style>
+    {{--<style>
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
@@ -19,12 +19,12 @@
         }
 
 
-    </style>
+    </style>--}}
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Build Portfolio</h3></div>
+                    <div class="panel-heading panel-title">Build Portfolio</div>
                     <div class="panel-body">
                         <form method="post" action="/findstocks/{{ $id }}">
                             {{ csrf_field() }}
@@ -60,11 +60,11 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Stock search results</h3></div>
+                    <div class="panel-heading panel-title">Stock search results</div>
                     <div class="panel-body">
 
                         @if (!$symbol == "")
-                            <table>
+                            <table class="table table-bordered table-condensed">
                                 <tr>
                                     <th>Exchange</th>
                                     <th>Symbol</th>
@@ -74,39 +74,40 @@
                                     <th>Change</th>
                                     <th>Remove</th>
 
+                                </tr>
+                                {{--@php($f = fopen("http://finance.yahoo.com/d/quotes.csv?s=". $symbol . "&f=xsnopp2", "r"))
 
-                                @php($f = fopen("http://finance.yahoo.com/d/quotes.csv?s=". $symbol . "&f=xsnopp2", "r"))
-
-                                @while (($line = fgetcsv($f)) !== false)
-                                    <tr>
-                                        @foreach ($line as $cell)
-                                            <td>
-                                                @php
-                                                    echo $cell
-                                                @endphp
-                                            </td>
-
-                                        @endforeach
+                                @while (($line = fgetcsv($f)) !== false)--}}
+                                <tr>
+                                    @foreach ($quoteArray as $item)
                                         <td>
-                                            <form method="post" action="/stocks">
-                                                {{ csrf_field() }}
-
-                                                <input type="hidden" name="id" value="{{ $id }}">
-                                                <input type="hidden" name="ticker" value="{{ $symbol }}">
-                                                <button type="submit" class="btn btn-success pull-right">Add
-                                                </button>
-                                            </form>
+                                            {{--@php
+                                                echo $cell
+                                            @endphp--}}
+                                            {{ $item }}
                                         </td>
-                                    </tr>
 
-                                @endwhile
-                                @php(fclose($f))
+                                    @endforeach
+                                    <td>
+                                        <form method="post" action="/stocks">
+                                            {{ csrf_field() }}
+
+                                            <input type="hidden" name="id" value="{{ $id }}">
+                                            <input type="hidden" name="ticker" value="{{ $symbol }}">
+                                            <button type="submit" class="btn btn-success pull-right btn-sm">Add
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+
+                                {{--@endwhile
+                                @php(fclose($f))--}}
 
 
                             </table>
                         @else
-                            <h4>Use the form above to enter a stocks market and ticker details. Pressing find stock will
-                                show the stock details</h4>
+                            <h5>Use the form above to enter a stocks market and ticker details. Pressing find stock will
+                                show the stock details</h5>
                         @endif
 
                     </div>
@@ -119,11 +120,11 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Stocks in portfolio</h3></div>
+                    <div class="panel-heading panel-title">Stocks in portfolio</div>
                     <div class="panel-body">
 
                         @if (!$list == "")
-                            <table>
+                            <table class="table table-bordered table-condensed">
                                 <tr>
                                     <th>Exchange</th>
                                     <th>Symbol</th>
@@ -134,46 +135,50 @@
                                     <th>Add</th>
 
 
-                                @php($f = fopen("http://finance.yahoo.com/d/quotes.csv?s=". $list . "&f=xsnopp2", "r"))
+                                {{--@php($f = fopen("http://finance.yahoo.com/d/quotes.csv?s=". $list . "&f=xsnopp2", "r"))
                                 @php($count = 0)
                                 @while (($line = fgetcsv($f)) !== false)
-                                    @php($stock = $stock_ids[$count])
+                                    @php($stock = $stock_ids[$count])--}}
+
+                                @for($i = 0; $i < count($stocksArray); $i++)
 
 
                                     <tr>
-                                        @foreach ($line as $cell)
+                                        @foreach ($stocksArray[$i] as $item)
                                             <td>
-                                                @php
+                                                {{--@php
                                                     echo $cell
-                                                @endphp
+                                                @endphp--}}
+                                                {{ $item }}
                                             </td>
 
                                         @endforeach
                                         <td>
-                                            <form method="post" action="/stocks/{{ $stock }}">
+                                            <form method="post" action="/stocks/{{ $stock_ids[$i] }}">
                                                 {{ method_field('DELETE') }}
                                                 {{ csrf_field() }}
 
                                                 <input type="hidden" name="id" value="{{ $id }}">
                                                 <input type="hidden" name="ticker" value="{{ $symbol }}">
-                                                <input type="submit" class="btn pull-right btn-danger"
+                                                <input type="submit" class="btn pull-right btn-danger btn-sm"
                                                        onclick="return confirm('Are you sure you want to delete this stock?');"
                                                        name="name"
                                                        value="Remove">
                                             </form>
                                         </td>
                                     </tr>
-                                    @php($count++)
+                                    {{--@php($count++)
                                 @endwhile
-                                @php(fclose($f))
+                                @php(fclose($f))--}}
+                                @endfor
 
 
                             </table>
                         @else
-                            <h4>
+                            <h5>
                                 There are currently no stocks in the portfolio, use the add button to add stocks to the
                                 portfolio.
-                            </h4>
+                            </h5>
                         @endif
                     </div>
                 </div>
@@ -185,10 +190,17 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <form action="/stocks" method="get">
+                        
+                        {{--<form action="/buildfrontier" method="post">
+                            {{ csrf_field() }}--}}
                             <a href="{{ url('/portfolios') }}" class="btn btn-primary">Return to Portfolios</a>
-                            <button type="submit" class="btn btn-success pull-right" onclick="resultTest.php">Show Efficency Frontier</button>
-                        </form>
+                            {{--<input type="hidden" name="id" value="{{ $id }}">
+                            <input type="hidden" name="markets" value="{{ $markets }}">
+                            <button type="submit" class="btn btn-success pull-right">Show
+                                Efficency Frontier
+                            </button>--}}
+                            <a href="/buildfrontier/{{ $id }}/{{ $markets }}" class="btn btn-success pull-right">Show Efficency Frontier</a>
+                        {{--</form>--}}
                     </div>
                 </div>
             </div>

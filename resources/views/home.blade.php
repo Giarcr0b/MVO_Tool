@@ -9,15 +9,13 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Dashboard</div>
-
+                    <div class="panel-heading panel-title">Welcome {{ Auth::user()->name }}: You are logged in!</div>
+                    
                     <div class="panel-body">
-                        {{ Auth::user()->name }}: You are logged in!
                         <form method="get" action="{{ url('/portfolios/create') }}">
                             {{ csrf_field() }}
-                            <button type="submit" class="btn btn-primary">Create Portfolio</button>
-
                             <a href="{{ url('/portfolios') }}" class="btn btn-primary">My Portfolios</a>
+                            <button type="submit" class="btn btn-success pull-right">Create Portfolio</button>
                         </form>
 
                     </div>

@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading panel-title">Login</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
@@ -50,7 +50,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <a class="btn btn-info" href="{{ url('/') }}">
+                                <a class="btn btn-danger" href="{{ url('/') }}">
                                     Cancel
                                 </a>
                                 <button type="submit" class="btn btn-success pull-right">

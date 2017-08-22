@@ -4,13 +4,13 @@ using JuPOT
 
              m = 6 # No. of days data
              returns_data = ARGS[1]
-			 returns = parse.(split(returns_data))
+			 returns = parse.(split(returns_data, ","))
 			 
              meanReturns_data =  ARGS[2] # Returns a matrix of size(n) with entries between 0-1s
-			 meanReturns = parse.(split(meanReturns_data))
+			 meanReturns = parse.(split(meanReturns_data, ","))
 			 
              tickers_data = ARGS[3]
-			 tickers = split(tickers_data)
+			 tickers = split(tickers_data, ",")
 			 
              n = length(tickers)
 

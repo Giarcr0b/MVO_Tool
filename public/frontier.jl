@@ -1,16 +1,16 @@
 using JuPOT
 
 
-             m = 6 # No. of days data
-             data = ARGS[1]
-             returns = split(data, ",")
+            # data = ARGS[1]
+             d = float(split(ARGS[1], ","))
 
              meanReturns =  ARGS[2] # Returns a matrix of size(n) with entries between 0-1s
-             d = split(meanReturns, ",")
+             returns = round(float(split(meanReturns, ",")),3)
 
              stocks = ARGS[3]
              tickers = split(stocks, ",")
 
+             m = 10
              n = length(tickers)
 
              matrix = reshape(d,m,n)
@@ -20,8 +20,14 @@ using JuPOT
 
              # Assets data structure containing, names, expected returns, covarariance
              assets = AssetsCollection(tickers, returns, covariance)
+             if minimum(returns) < 0
+             min = 0
+             else
+             min = minimum(returns)
+             end
+             max = maximum(returns)
 
-             target_ret_test = [0.10,0.15,0.20,0.25,0.30,0.35,0.40,0.45,0.50,0.55,0.60,0.65,0.70,0.75,0.80]
+             target_ret_test = collect(min:(max-min)/10:max)
 
              function efficientFrontierMVO(assets, target_ret_test)
 
@@ -41,11 +47,37 @@ using JuPOT
 
                      # Risk is the Objective Value. Index the Target Return.
                      risk[i] = result[1]
-                     index[i] = target_ret
+                     index[i] = round(target_ret,3)
                  end
 
+                 # Convert arrays to strings
+               risk_string = ""
+              index_string = ""
+
+              for j in 1:length(risk)
+                if j < length(risk)
+                    risk_string = risk_string * string(risk[j]) * ","
+                    else
+                    risk_string = risk_string * string(risk[j])
+                end
+              end
+
+              for k in 1:length(index)
+                if k < length(index)
+                    index_string = index_string * string(index[k]) * ","
+                    else
+                    index_string = index_string * string(index[k])
+                end
+              end
+
                  # Return as a Tuple of the Arrays
-                 return risk, index
+                 text = risk_string * "\n" * index_string
+                  return text
              end
 
              efd = efficientFrontierMVO(assets, target_ret_test)
+
+             outfile = "output.txt"
+             f = open(outfile, "w")
+             println(f, efd)
+             close(f)

@@ -55,8 +55,10 @@ class PortfolioController extends Controller
 
         $portfolio->save();
 
+        $portfolios = Portfolio::where('user_id', Auth::id())->paginate(10);
 
-        return view('stocks.index', compact('portfolio'));
+
+        return view('portfolios.index', compact('portfolios', 'portfolio'));
     }
 
     /**

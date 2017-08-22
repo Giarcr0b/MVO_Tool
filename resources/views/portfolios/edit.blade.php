@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Edit Portfolio</div>
+                    <div class="panel-heading panel-title">Edit Portfolio</div>
 
                     <div class="panel-body">
                         <form class="form-horizontal" role="form" method="post" action="/portfolios/{{ $portfolio->id }}">
@@ -49,11 +49,11 @@
                             </div>
 
                             <div class="form-group">
-                                <div class="col-md-8 col-md-offset-4">
-                                    <a class="btn btn-primary" href="{{ url('/portfolios') }}">
+                                <div class="col-md-6 col-md-offset-4">
+                                    <a class="btn btn-danger" href="{{ url('/portfolios') }}">
                                         Cancel
                                     </a>
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="submit" class="btn btn-success pull-right">
                                         Update Portfolio
                                     </button>
                                 </div>
